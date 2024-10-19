@@ -1,0 +1,16 @@
+/* @font-face {
+    font-family: "Overpass";
+    src: url("../fonts/Overpass-Regular.ttf");
+} */
+  
+h1 {
+    font-family: "Overpass", sans-serif;
+  }
+#nav {
+    display: flex;
+    justify-content: space-evenly;
+  }
+.punkt {
+    font-family: "Overpass", sans-serif;
+    font-size: 30px;
+  }
