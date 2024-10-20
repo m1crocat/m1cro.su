@@ -1,16 +1,45 @@
-/* @font-face {
-    font-family: "Overpass";
-    src: url("../fonts/Overpass-Regular.ttf");
-} */
-  
-h1 {
-    font-family: "Overpass", sans-serif;
+@font-face {
+  font-family: "Nunito";
+  src: url("fonts/Nunito-VariableFont_wght.ttf");
+}
+body, *{
+  background-color: black;
+  color:white;
+  font-family: "Nunito";
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#nav, #footer {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0.5% 0;
+  font-size: 180%;
   }
-#nav {
-    display: flex;
-    justify-content: space-evenly;
+@media (max-width: 850px) {
+    #nav, #footer{
+      flex-direction: column;
+      margin: 2% 5%;
+    }
   }
-.punkt {
-    font-family: "Overpass", sans-serif;
-    font-size: 30px;
-  }
+#main{
+  font-size: 150%;
+  margin: 0 5%;
+}
+a, a:visited, a:active{
+  color: white;
+}
+ul{
+  list-style-type: none;
+}
+li > img{
+  width: 1em;
+  vertical-align: middle;
+  margin: 0 0.5%;
+}
+#footer{
+  margin-top: 5%;
+}
+#pong{
+  font-size: 10em;
+  text-align: center;
+}
