@@ -1,0 +1,73 @@
+@font-face {
+  font-family: "Nunito";
+  src: url("../fonts/Nunito-VariableFont_wght.ttf");
+}
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+@media (max-width: 850px) {
+  #nav, #footer{
+    flex-direction: column;
+    margin: 2% 5%;
+  }
+}
+*{
+  color:white;
+  font-family: "Nunito";
+  margin-top: 0;
+  margin-bottom: 0;
+}
+body{
+  background: linear-gradient(160deg, rgb(0, 0, 0),  rgb(13, 14, 99));
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  animation: gradient 10s ease infinite;
+  background-size: 200% 200%;
+}
+#nav, #footer {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0.5% 0;
+  font-size: 180%;
+  }
+#main{
+  font-size: 150%;
+  margin: 0 5%;
+}
+.linksproj, .linkscoc{
+  margin-bottom: 0;
+}
+a, a:visited, a:active{
+  color: white;
+  text-decoration: none;
+}
+.linkscoc > ul{
+  list-style-type: none;
+}
+.icon{
+  width: 1em;
+  vertical-align:middle;
+  margin: 0 5%;
+}
+#footer{
+  margin-top: auto;
+}
+#pong{
+  text-align: center;
+  font-size:10em;
+}
+#links{
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5% 0;
+}
