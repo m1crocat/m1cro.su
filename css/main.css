@@ -13,14 +13,6 @@
       background-position: 0% 50%;
   }
 }
-@media (max-width: 850px) {
-  #nav, #footer, #links{
-    flex-direction: column;
-  }
-  #nav, #footer{
-    margin: 2% 5%;
-  }
-}
 *{
   color:white;
   font-family: "Nunito";
@@ -72,4 +64,12 @@ a, a:visited, a:active{
   display: flex;
   justify-content: space-between;
   margin: 0.5% 0;
+}
+@media (max-width: 850px) {
+  #nav, #footer, #links{
+    flex-direction: column;
+  }
+  #nav, #footer{
+    margin: 2% 5%;
+  }
 }
