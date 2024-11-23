@@ -58,7 +58,7 @@ a, a:visited, a:active{
 }
 #pong{
   text-align: center;
-  font-size:10em;
+  font-size:5em;
 }
 #links{
   display: flex;
