@@ -20,12 +20,12 @@
   margin-bottom: 0;
 }
 body{
-  background: linear-gradient(320deg, rgb(0, 0, 0),  rgb(0, 97, 65));
+  background: linear-gradient(50deg, rgb(0, 0, 0),  rgb(42, 0, 97));
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   animation: gradient 10s ease infinite;
-  background-size: 220% 220%;
+  background-size: 200% 200%;
 }
 #nav, #footer {
   display: flex;
@@ -37,7 +37,7 @@ body{
   font-size: 150%;
   margin: 0 5%;
 }
-.linksproj, .linkscoc{
+#links{
   margin-bottom: 0;
 }
 a, a:visited, a:active{
@@ -71,5 +71,8 @@ a, a:visited, a:active{
   }
   #nav, #footer{
     margin: 2% 5%;
+  }
+  .linkscoc, .buttons, #footer{
+    margin-top: 10%;
   }
 }
